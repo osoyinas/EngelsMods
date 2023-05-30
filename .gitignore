@@ -1,0 +1,12 @@
+# Ignorar todo dentro de minecraft
+minecraft/*
+
+# Incluir la carpeta "mods" y su contenido
+!minecraft/mods/
+!minecraft/mods/**
+
+# Incluir el archivo .gitignore
+!.gitignore
+
+# Incluir el archivo updateMods.bat si está dentro de la carpeta minecraft
+!updateMods.bat
