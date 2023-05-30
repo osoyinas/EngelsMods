@@ -1,4 +1,12 @@
+# Ignorar todos los archivos y carpetas
 *
-!.gitignore
+
+# Incluir la carpeta "mods" y su contenido
 !mods/
+!mods/**
+
+# Incluir el archivo .gitignore
+!.gitignore
+
+# Incluir el archivo updateMods.bat
 !updateMods.bat
